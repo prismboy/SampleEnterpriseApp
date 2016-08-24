@@ -26,6 +26,8 @@ public class SessionStatusBean implements Serializable {
 
 	private String instanceIndex;
 
+	private int accessCount;
+
 	/**
 	 * 
 	 */
@@ -55,6 +57,14 @@ public class SessionStatusBean implements Serializable {
 
 	public void setInstanceIndex(String instanceIndex) {
 		this.instanceIndex = instanceIndex;
+	}
+
+	public final int getAccessCount() {
+		return accessCount;
+	}
+
+	public final void increment() {
+		accessCount++;
 	}
 
 }

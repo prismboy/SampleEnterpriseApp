@@ -13,6 +13,7 @@
 <tr><th>New created</th><td><%= bean.isCreated() ? "true" : "false" %></td></tr>
 <tr><th>SessionId</th><td><%= session.getId() %></td></tr>
 <tr><th>Created time</th><td><%= bean.getCreateTime() %></td></tr>
+<tr><th>Access count</th><td><%= bean.getAccessCount() %></td></tr>
 </table>
 <br>
 <a href="sessionStatus">再読み込み</a>&nbsp;&nbsp;&nbsp;
