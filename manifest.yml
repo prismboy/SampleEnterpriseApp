@@ -1,0 +1,11 @@
+applications:
+- path: SampleEnterpriseApp/target/SampleEnterpriseApp.ear
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SampleEnterpriseApp
+  host: SampleEnterpriseApp
+  disk_quota: 1024M
+  services:
+  - ClearDS
+  - Auto-Scaling-99
