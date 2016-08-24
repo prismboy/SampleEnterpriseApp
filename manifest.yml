@@ -8,4 +8,4 @@ applications:
   disk_quota: 1024M
   services:
   - ClearDS
-  - Auto-Scaling-99
+  - Auto-Scaling-95
