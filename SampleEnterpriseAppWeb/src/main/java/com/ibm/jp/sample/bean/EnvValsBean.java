@@ -22,7 +22,6 @@ public class EnvValsBean implements Serializable {
 	private Map<String, String> envMap;
 
 	public EnvValsBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public final Map<String, String> getEnvMap() {

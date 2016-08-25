@@ -32,7 +32,6 @@ public class SessionStatusBean implements Serializable {
 	 * 
 	 */
 	public SessionStatusBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public final String getCreateTime() {

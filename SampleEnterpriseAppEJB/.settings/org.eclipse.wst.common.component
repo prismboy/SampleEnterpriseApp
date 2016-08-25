@@ -2,7 +2,6 @@
     <wb-module deploy-name="SampleEnterpriseAppEJB">
         <wb-resource deploy-path="/" source-path="/.apt_generated"/>
         <wb-resource deploy-path="/" source-path="/src/main/java"/>
-        <wb-resource deploy-path="/" source-path="/src/main/resource"/>
         <wb-resource deploy-path="/" source-path="/src/main/resources" tag="defaultRootSource"/>
         <property name="java-output-path" value="/SampleEnterpriseAppEJB/build/classes"/>
     </wb-module>

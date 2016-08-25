@@ -38,7 +38,6 @@ public class EmpDetailServlet extends BaseServlet {
 	 */
 	public EmpDetailServlet() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**

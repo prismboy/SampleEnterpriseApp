@@ -35,7 +35,6 @@ public class SampleJpaSessionBean implements SampleJpaSessionBeanLocal {
 	 * Default constructor.
 	 */
 	public SampleJpaSessionBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

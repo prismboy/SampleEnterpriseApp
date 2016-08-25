@@ -23,7 +23,6 @@ public class SysTimeSessionBean implements SysTimeSessionBeanLocal {
      * Default constructor. 
      */
     public SysTimeSessionBean() {
-        // TODO Auto-generated constructor stub
     }
 
 	@Override

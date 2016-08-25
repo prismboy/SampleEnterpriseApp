@@ -33,7 +33,6 @@ public class EmpListBean extends BaseBean {
 	 * 
 	 */
 	public EmpListBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public final String getCondition() {

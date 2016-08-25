@@ -29,7 +29,6 @@ public abstract class BaseBean implements Serializable {
 	 * 
 	 */
 	public BaseBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public final String getMessage() {

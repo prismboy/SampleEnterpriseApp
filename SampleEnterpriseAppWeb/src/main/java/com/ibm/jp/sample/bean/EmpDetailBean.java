@@ -27,7 +27,6 @@ public class EmpDetailBean implements Serializable {
 	private String condition;
 
 	public EmpDetailBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public final Employee getEntiry() {

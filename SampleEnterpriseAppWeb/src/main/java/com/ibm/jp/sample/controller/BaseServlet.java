@@ -28,7 +28,6 @@ public abstract class BaseServlet extends HttpServlet {
 	 */
 	public BaseServlet() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**

@@ -21,14 +21,12 @@ public class SampleListener implements ServletContextListener {
 	 * Default constructor.
 	 */
 	public SampleListener() {
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
 	 * @see ServletContextListener#contextDestroyed(ServletContextEvent)
 	 */
 	public void contextDestroyed(ServletContextEvent arg0) {
-		// TODO Auto-generated method stub
 	}
 
 	/**

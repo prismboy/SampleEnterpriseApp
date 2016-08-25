@@ -39,7 +39,6 @@ public class EmpListServlet extends BaseServlet {
 	 */
 	public EmpListServlet() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**

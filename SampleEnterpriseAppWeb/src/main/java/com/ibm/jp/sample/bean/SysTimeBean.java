@@ -24,7 +24,6 @@ public class SysTimeBean implements Serializable {
 	private Long currentTimeMillis;
 
 	public SysTimeBean() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public final String getCurrentDateTime() {
