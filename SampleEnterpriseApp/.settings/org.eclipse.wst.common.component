@@ -2,10 +2,10 @@
     <wb-module deploy-name="LibertySample-e87797">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/resources" tag="defaultRootSource"/>
-        <dependent-module archiveName="LibertySample-e87797Web.war" deploy-path="/" handle="module:/classpath/var/M2_REPO/LibertySample-e87797/LibertySample-e87797Web/0.0.1-SNAPSHOT/LibertySample-e87797Web-0.0.1-SNAPSHOT.war">
+        <dependent-module archiveName="SampleEnterpriseAppWeb.war" deploy-path="/" handle="module:/resource/SampleEnterpriseAppWeb/SampleEnterpriseAppWeb">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="LibertySample-e87797EJB.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/LibertySample-e87797/LibertySample-e87797EJB/0.0.1-SNAPSHOT/LibertySample-e87797EJB-0.0.1-SNAPSHOT.jar">
+        <dependent-module archiveName="SampleEnterpriseAppEJB.jar" deploy-path="/" handle="module:/resource/SampleEnterpriseAppEJB/SampleEnterpriseAppEJB">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>
