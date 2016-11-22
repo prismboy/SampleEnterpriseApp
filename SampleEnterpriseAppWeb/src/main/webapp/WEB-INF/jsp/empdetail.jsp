@@ -1,10 +1,10 @@
-<%@page import="com.ibm.jp.sample.ejb.entity.Employee"%>
+<%@page import="com.ibm.jp.blmx.sample.ejb.entity.Employee"%>
 <%@page import="java.util.Map.Entry"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.Iterator"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<jsp:useBean id="bean" type="com.ibm.jp.sample.bean.EmpDetailBean" scope="request"></jsp:useBean>
+<jsp:useBean id="bean" type="com.ibm.jp.blmx.sample.bean.EmpDetailBean" scope="request"></jsp:useBean>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>

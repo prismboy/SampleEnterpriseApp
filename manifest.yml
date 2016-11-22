@@ -1,11 +1,22 @@
+#declared-services:
+#  ElephantDS:
+#    label: elephantsql
+#    plan: turtle
+#  Object Storage-p6:
+#    label: Object-Storage
+#    plan: standard
+#  Visual Recognition-pq:
+#    label: watson_vision_combined
+#    plan: free
 applications:
 - path: SampleEnterpriseApp/target/SampleEnterpriseApp.ear
   memory: 512M
   instances: 1
-  domain: mybluemix.net
+  # domain: mybluemix.net
   name: SampleEnterpriseApp
   host: SampleEnterpriseApp
   disk_quota: 1024M
-  services:
-  - ClearDS
-  - Auto-Scaling-95
+#  services:
+#  - ElephantDS
+#  - Object Storage-p6
+#  - Visual Recognition-pq

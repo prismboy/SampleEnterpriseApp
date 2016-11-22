@@ -42,6 +42,61 @@
 							<moduleId>SampleEnterpriseAppEJB</moduleId>
 							<uri>SampleEnterpriseAppEJB.jar</uri>
 						</ejbModule>
+						<jarModule>
+							<groupId>commons-beanutils</groupId>
+							<artifactId>commons-beanutils</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>commons-collections</groupId>
+							<artifactId>commons-collections</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>commons-lang</groupId>
+							<artifactId>commons-lang</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>commons-logging</groupId>
+							<artifactId>commons-logging</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>com.ibm.watson.developer_cloud</groupId>
+							<artifactId>java-sdk</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-api</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>org.slf4j</groupId>
+							<artifactId>slf4j-log4j12</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>org.pacesys</groupId>
+							<artifactId>openstack4j-core</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>org.apache.geronimo.specs</groupId>
+							<artifactId>geronimo-servlet_3.0_spec</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>org.pacesys</groupId>
+							<artifactId>openstack4j</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
+						<jarModule>
+							<groupId>org.apache.directory.studio</groupId>
+							<artifactId>org.apache.commons.io</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
+						</jarModule>
 					</modules>
 				</configuration>
 			</plugin>

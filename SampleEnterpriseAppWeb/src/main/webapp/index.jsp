@@ -14,6 +14,8 @@
 <tr><td>・</td><td><a href="env">Liberty for Java 環境変数</a></td></tr>
 <tr><td>・</td><td><a href="empList">データベース検索(JPA)</a></td></tr>
 <tr><td>・</td><td><a href="sessionStatus">セッションのテスト</a></td></tr>
+<tr><td>・</td><td><a href="osTest">ObjectStrage Test</a></td></tr>
+<tr><td>・</td><td><a href="recognize">VisualRecognition Test</a></td></tr>
 </table>
 </body>
 </html>

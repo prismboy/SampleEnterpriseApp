@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="SampleEnterpriseAppEJB">
-		<jta-data-source>jdbc/ClearDS</jta-data-source>
-		<class>com.ibm.jp.sample.ejb.entity.Employee</class>
-		<class>com.ibm.jp.sample.ejb.entity.EmpPhoto</class>
-		<class>com.ibm.jp.sample.ejb.entity.EmpPhotoPK</class>
+		<jta-data-source>jdbc/ElephantDS</jta-data-source>
+		<class>com.ibm.jp.blmx.sample.ejb.entity.Employee</class>
+		<class>com.ibm.jp.blmx.sample.ejb.entity.EmpPhoto</class>
+		<class>com.ibm.jp.blmx.sample.ejb.entity.EmpPhotoPK</class>
 		<properties>
 			<property name="eclipselink.logging.level" value="OFF"/>
 			<property name="eclipselink.logging.parameters" value="true"/>
