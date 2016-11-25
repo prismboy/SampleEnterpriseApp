@@ -13,9 +13,9 @@
 <tr><td>・</td><td><a href="systime">Bluemix システム日時</a></td></tr>
 <tr><td>・</td><td><a href="env">Liberty for Java 環境変数</a></td></tr>
 <tr><td>・</td><td><a href="empList">データベース検索(JPA)</a></td></tr>
-<tr><td>・</td><td><a href="sessionStatus">セッションのテスト</a></td></tr>
-<tr><td>・</td><td><a href="osTest">ObjectStrage Test</a></td></tr>
-<tr><td>・</td><td><a href="recognize">VisualRecognition Test</a></td></tr>
+<tr><td>・</td><td><a href="sessionStatus">セッションアフィニティのテスト</a></td></tr>
+<tr><td>・</td><td><a href="osTest">データ永続化のテスト</a></td></tr>
+<tr><td>・</td><td><a href="recognize">画像認識のテスト</a></td></tr>
 </table>
 </body>
 </html>
