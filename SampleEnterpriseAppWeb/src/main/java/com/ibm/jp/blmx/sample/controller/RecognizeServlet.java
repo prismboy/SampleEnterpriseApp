@@ -1,6 +1,9 @@
 package com.ibm.jp.blmx.sample.controller;
 
 import java.io.IOException;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -76,9 +79,16 @@ public class RecognizeServlet extends HttpServlet {
 		setHeaders(response);
 		String apiKind = request.getParameter("apiKind");
 		String url = request.getParameter("url");
+		Map<String, String> headers = new HashMap<>();
+		Enumeration<String> names = request.getHeaderNames();
+		while (names.hasMoreElements()) {
+			String name = names.nextElement();
+			String val = request.getHeader(name);
+			headers.put(name, val);
+		}
 
-		if(_KIND_CLASSIFY.equals(apiKind)){
-			ImageClassification ic = local.classifyImage(url);
+		if (_KIND_CLASSIFY.equals(apiKind)) {
+			ImageClassification ic = local.classifyImage(url, headers);
 			ClassifyResults results = VisualClassMapper.mapVisualClass(ic);
 			results.setApiKind(apiKind);
 			request.setAttribute("bean", results);

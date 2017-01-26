@@ -4,6 +4,7 @@ import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
@@ -38,12 +39,13 @@ public class VisualRecognizer implements VisualRecognizerLocal {
 	public VisualRecognizer() {
 	}
 
-	public ImageClassification classifyImage(String url) {
+	public ImageClassification classifyImage(String url, Map<String, String> headers) {
 		if (wvc == null) {
 			setCredentionsInfo();
 		}
 		VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20,
 				wvc.getCredentials().getApi_key());
+		//service.setDefaultHeaders(headers);
 		List<String> classifiers = null;
 		if (System.getenv(_CLASSIFIER_IDS) != null) {
 			String[] classifierIds = System.getenv(_CLASSIFIER_IDS).split(",");

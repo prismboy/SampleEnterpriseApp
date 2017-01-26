@@ -20,7 +20,7 @@
         <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="java-sdk-3.3.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/java-sdk/3.3.1/java-sdk-3.3.1.jar">
+        <dependent-module archiveName="java-sdk-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/java-sdk/3.5.3/java-sdk-3.5.3.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="slf4j-api-1.7.21.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar">
@@ -41,6 +41,12 @@
         <dependent-module archiveName="org.apache.commons.io-2.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="alchemy-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/alchemy/3.5.3/alchemy-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/core/3.5.3/core-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="okhttp-3.3.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/okhttp/3.3.1/okhttp-3.3.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -50,9 +56,6 @@
         <dependent-module archiveName="logging-interceptor-3.3.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/logging-interceptor/3.3.1/logging-interceptor-3.3.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="okhttp-ws-3.3.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/okhttp-ws/3.3.1/okhttp-ws-3.3.1.jar">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="okhttp-urlconnection-3.3.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/okhttp-urlconnection/3.3.1/okhttp-urlconnection-3.3.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -60,6 +63,51 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="jersey-jsr166e-2.22.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/glassfish/jersey/bundles/repackaged/jersey-jsr166e/2.22.2/jersey-jsr166e-2.22.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="conversation-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/conversation/3.5.3/conversation-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dialog-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/dialog/3.5.3/dialog-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="discovery-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/discovery/3.5.3/discovery-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="document-conversion-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/document-conversion/3.5.3/document-conversion-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="language-translation-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/language-translation/3.5.3/language-translation-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="language-translator-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/language-translator/3.5.3/language-translator-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="natural-language-classifier-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/natural-language-classifier/3.5.3/natural-language-classifier-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="personality-insights-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/personality-insights/3.5.3/personality-insights-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="retrieve-and-rank-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/retrieve-and-rank/3.5.3/retrieve-and-rank-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="speech-to-text-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/speech-to-text/3.5.3/speech-to-text-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="okhttp-ws-3.3.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/okhttp-ws/3.3.1/okhttp-ws-3.3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="text-to-speech-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/text-to-speech/3.5.3/text-to-speech-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tone-analyzer-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/tone-analyzer/3.5.3/tone-analyzer-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tradeoff-analytics-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/tradeoff-analytics/3.5.3/tradeoff-analytics-3.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="visual-recognition-3.5.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/visual-recognition/3.5.3/visual-recognition-3.5.3.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="log4j-1.2.17.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar">
