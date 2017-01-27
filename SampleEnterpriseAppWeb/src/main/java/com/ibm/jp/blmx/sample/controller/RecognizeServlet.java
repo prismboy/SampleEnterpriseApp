@@ -33,6 +33,7 @@ public class RecognizeServlet extends HttpServlet {
 	private static final String _RESULT_CLASSIFY = "/WEB-INF/jsp/classifyResult.jsp";
 	private static final String _RESULT_FACE = "/WEB-INF/jsp/faceResult.jsp";
 	private static final String _KIND_CLASSIFY = "classify";
+	private static final String _ACCEPT_LANGUAGE = "Accept-Language";
 
 	private VisualRecognizerLocal local;
 
@@ -80,12 +81,16 @@ public class RecognizeServlet extends HttpServlet {
 		String apiKind = request.getParameter("apiKind");
 		String url = request.getParameter("url");
 		Map<String, String> headers = new HashMap<>();
+		String al = request.getHeader(_ACCEPT_LANGUAGE);
+		headers.put(_ACCEPT_LANGUAGE, al);
+		/*
 		Enumeration<String> names = request.getHeaderNames();
 		while (names.hasMoreElements()) {
 			String name = names.nextElement();
 			String val = request.getHeader(name);
 			headers.put(name, val);
 		}
+		*/
 
 		if (_KIND_CLASSIFY.equals(apiKind)) {
 			ImageClassification ic = local.classifyImage(url, headers);

@@ -45,7 +45,7 @@ public class VisualRecognizer implements VisualRecognizerLocal {
 		}
 		VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20,
 				wvc.getCredentials().getApi_key());
-		//service.setDefaultHeaders(headers);
+		service.setDefaultHeaders(headers);
 		List<String> classifiers = null;
 		if (System.getenv(_CLASSIFIER_IDS) != null) {
 			String[] classifierIds = System.getenv(_CLASSIFIER_IDS).split(",");
