@@ -13,16 +13,14 @@
 </head>
 <body>
 <h2>画像解析結果</h2>
-<% if(bean != null && bean.getClassMap().size()>0){
-//	ClassifyResultParser parser = ClassifyResultParser.getInstance(bean);
-//	JSONObject image = parser.getImage();
-//	JSONArray classifiers = parser.getClassifiers(image);
+<%
+if(bean != null && bean.getClassMap().size()>0){
 %>
 <b>解析元画像</b><br>
 <img src="<%= bean.getSourceUrl() %>" height="30%" width="30%" border="1"/>
 <br>
 <table border="1" cellpadding="1" cellspacing="0">
-<tr><th>分類</th><th>スコア</th></tr>
+<tr><th>分類</th><th>スコア</th><th>分類器ID</th></tr>
 <%
 	Iterator<String> ite = bean.getClassMap().keySet().iterator();
 	while(ite.hasNext()){
@@ -35,7 +33,7 @@
 		while(iteClass.hasNext()){
 			String className = iteClass.next();
 %>
-<tr><td><%= className %></td><td><%= classMap.get(className) %></td></tr>
+<tr><td><%= className %></td><td><%= classMap.get(className) %></td><td><%= classifierName %></td></tr>
 <%
 		}
 	}
