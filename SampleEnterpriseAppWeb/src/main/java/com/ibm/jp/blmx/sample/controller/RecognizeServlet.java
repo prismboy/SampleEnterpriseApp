@@ -1,7 +1,6 @@
 package com.ibm.jp.blmx.sample.controller;
 
 import java.io.IOException;
-import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -81,16 +80,8 @@ public class RecognizeServlet extends HttpServlet {
 		String apiKind = request.getParameter("apiKind");
 		String url = request.getParameter("url");
 		Map<String, String> headers = new HashMap<>();
-		String al = request.getHeader(_ACCEPT_LANGUAGE);
-		headers.put(_ACCEPT_LANGUAGE, al);
-		/*
-		Enumeration<String> names = request.getHeaderNames();
-		while (names.hasMoreElements()) {
-			String name = names.nextElement();
-			String val = request.getHeader(name);
-			headers.put(name, val);
-		}
-		*/
+		String acceptLanguage = request.getHeader(_ACCEPT_LANGUAGE);
+		headers.put(_ACCEPT_LANGUAGE, acceptLanguage);
 
 		if (_KIND_CLASSIFY.equals(apiKind)) {
 			ImageClassification ic = local.classifyImage(url, headers);
